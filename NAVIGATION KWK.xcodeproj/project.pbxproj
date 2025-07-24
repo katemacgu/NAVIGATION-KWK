@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		675EE1502E32FD5300CAEE4B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675EE14F2E32FD5300CAEE4B /* SwiftUIView.swift */; };
+		675EE1522E32FD7C00CAEE4B /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675EE1512E32FD7C00CAEE4B /* SecondView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		675EE1412E32FC5300CAEE4B /* NAVIGATION KWK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NAVIGATION KWK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		675EE14F2E32FD5300CAEE4B /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		675EE1512E32FD7C00CAEE4B /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		675EE1382E32FC5300CAEE4B = {
 			isa = PBXGroup;
 			children = (
+				675EE1512E32FD7C00CAEE4B /* SecondView.swift */,
+				675EE14F2E32FD5300CAEE4B /* SwiftUIView.swift */,
 				675EE1432E32FC5300CAEE4B /* NAVIGATION KWK */,
 				675EE1422E32FC5300CAEE4B /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				675EE1522E32FD7C00CAEE4B /* SecondView.swift in Sources */,
+				675EE1502E32FD5300CAEE4B /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
